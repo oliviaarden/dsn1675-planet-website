@@ -30,16 +30,29 @@ body {
     display: block;
   }
 
-li {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
 }
 
 .margin {
   margin-right: -1em;
+}
+
+figcaption {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.265rem;
+}
+
+h1 {
+  font-size: 1.600rem;
 }
 
 @media only screen and (min-width: 25em) {
