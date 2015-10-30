@@ -1,11 +1,11 @@
 html {
   font-family: sans-serif;
   line-height: 1.5;
-  }
+}
 
 .masthead {
    background-color: silver;
-  }
+ }
 
 .lightercolor {
   background-color: #efefef;
@@ -23,20 +23,8 @@ a {
   text-decoration: none;
 }
 
-.margin {
-  margin-right: -1em;
-}
-
-figcaption {
-  font-size: 1rem;
-}
-
 li {
   list-style-type: none;
-}
-
-dd {
-  margin: 0;
 }
 
 .lightcolor {
@@ -46,8 +34,12 @@ dd {
 
 @media only screen and (min-width: 25em) {
    nav ul {
-     display: inline-block;
+     text-align: center;
    }
+
+  nav li {
+    display: inline-block;
+  }
 
    h1 {
      text-align: center;
@@ -56,9 +48,7 @@ dd {
 
 @media only screen and (min-width: 38em) {
   nav h1 {
-    text-align: left;
+    text-align: center;
 }
-    li {
-      display: inline-block;
-  }
+
 }
